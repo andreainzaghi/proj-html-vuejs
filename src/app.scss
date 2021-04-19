@@ -18,7 +18,6 @@ position: relative;
   .a{
   button{
   background-color: #fff;
-
   min-width:45px;
   padding:5px;
   min-height:45px;
@@ -41,11 +40,14 @@ position: relative;
     }
   }
   }
-//   .immagine-centrale-hero{
-//   position: absolute;
-// vertical-align: center;
-//
-//   }
+
+}
+.immagine-centrale-hero{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+
 }
 }
 nav{
@@ -62,7 +64,13 @@ nav{
     margin-left:-10px;
     margin-top:30px;
     li{
-      padding:0px 7px;
+      background-size: 200% auto;
+      display: block;
+       background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+      padding:8px;
+        transition: 0.5s;
+        box-shadow: 0 0 5px #eee;
+        border-radius: 5px;
         @include font-size;
       list-style: none;
       color: #fff;
@@ -80,3 +88,9 @@ nav{
   display: block;
   content: "";
 }
+
+  nav ul li:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }

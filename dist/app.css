@@ -33,6 +33,12 @@ header .bottoni-hero .a button #c {
   color: green;
   font-size: 20px;
 }
+header .immagine-centrale-hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 nav {
   text-align: center;
@@ -50,7 +56,13 @@ nav .nav-header ul {
   margin-top: 30px;
 }
 nav .nav-header ul li {
-  padding: 0px 7px;
+  background-size: 200% auto;
+  display: block;
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+  padding: 8px;
+  transition: 0.5s;
+  box-shadow: 0 0 5px #eee;
+  border-radius: 5px;
   font-size: 12px;
   list-style: none;
   color: #fff;
@@ -65,4 +77,11 @@ nav .nav-header img {
   clear: both;
   display: block;
   content: "";
+}
+
+nav ul li:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
