@@ -1,6 +1,8 @@
 header {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../img/aaaa.jpg");
+  background-size: cover;
   height: 100vh;
+  position: relative;
 }
 header .bottoni-hero {
   float: right;
@@ -29,6 +31,11 @@ header .bottoni-hero .a button #d {
 header .bottoni-hero .a button #c {
   color: green;
   font-size: 20px;
+}
+header .bottoni-hero .immagine-centrale-hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 nav {
