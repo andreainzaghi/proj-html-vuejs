@@ -1,9 +1,37 @@
+
+@mixin font {
+font-family: 'Montserrat', sans-serif;
+}
+@mixin font-size {
+font-size:14px;
+}
+header{
+  background-image: url(../images/hero.jpg);
+}
 nav{
+  text-align: center;
+  width:1219px;
+
+  @include font;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+.nav-header{
     display:flex;
   ul{
+    margin-left:-10px;
+    margin-top:30px;
     li{
-      padding:0px 10px;
+      padding:0px 7px;
+        @include font-size;
       list-style: none;
     }
   }
+  img{
+    width:200px;
+    height:65px;
+    padding:0px  0px  0px 30px;
+  }
+
+}
 }
