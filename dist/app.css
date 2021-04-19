@@ -1,6 +1,9 @@
-header {
-  background-image: url("../img/aaaa.jpg");
+#root {
   background-size: cover;
+  background-image: url("../img/aaaa.jpg");
+}
+
+header {
   height: 100vh;
   width: 100%;
   position: relative;
@@ -38,6 +41,23 @@ header .immagine-centrale-hero {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+header .immagine-centrale-hero .p-hero-header {
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+header .immagine-centrale-hero img {
+  border-bottom: 3px solid #52A5EB;
+}
+header .immagine-centrale-hero button {
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e51d8b;
 }
 
 nav {
