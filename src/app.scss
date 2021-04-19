@@ -62,7 +62,7 @@ nav{
     display:flex;
   ul{
     margin-left:-10px;
-    margin-top:30px;
+    margin-top:22px;
     li{
       background-size: 200% auto;
       display: block;
@@ -90,7 +90,7 @@ nav{
 }
 
   nav ul li:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     text-decoration: none;
   }
