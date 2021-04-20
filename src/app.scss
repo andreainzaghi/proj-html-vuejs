@@ -172,8 +172,8 @@ main{
         @include font;
       margin:auto;
       h3{
-
-        color:blue;
+        margin-top: 80px;
+        color:#4FA1E4;
       }
       h2{
         font-size: 35px;
@@ -187,14 +187,15 @@ main{
   }
   .quattro-immagini{
     display: flex;
+    flex-wrap: wrap;
     margin-top:40px;
-    margin-left:209px;
-    width:600px;
+    margin-left:200px;
+    width:640px;
     .due-immagini{
-        width:300px;
+        width:320px;
 
       img{
-        width:300px;
+        width:320px;
       }
     }
   }

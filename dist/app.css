@@ -155,7 +155,8 @@ main .container-main .titolo-main {
   margin: auto;
 }
 main .container-main .titolo-main h3 {
-  color: blue;
+  margin-top: 80px;
+  color: #4FA1E4;
 }
 main .container-main .titolo-main h2 {
   font-size: 35px;
@@ -166,13 +167,14 @@ main .container-main .titolo-main p {
 }
 main .quattro-immagini {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 40px;
-  margin-left: 209px;
-  width: 600px;
+  margin-left: 200px;
+  width: 640px;
 }
 main .quattro-immagini .due-immagini {
-  width: 300px;
+  width: 320px;
 }
 main .quattro-immagini .due-immagini img {
-  width: 300px;
+  width: 320px;
 }
