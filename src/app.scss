@@ -5,10 +5,14 @@ font-family: 'Montserrat', sans-serif;
 @mixin font-size {
 font-size:12px;
 }
+@mixin dist {
+margin-top:30px;
+}
 #root{
 
   background-size: cover;
   background-image: url('../img/aaaa.jpg');
+  background-position: 0 -50px ;
 }
 header{
 
@@ -48,20 +52,25 @@ position: relative;
 }
 .immagine-centrale-hero{
 position: absolute;
-top:50%;
+top:60%;
 left:50%;
 transform: translate(-50%,-50%);
  .p-hero-header{
-   font-size: 35px;
+   background: rgb(0,0,0);
+   background: linear-gradient(207deg, rgba(0,0,0,0.1516981792717087) 0%, rgba(0,0,0,0.16010154061624648) 0%);
+   font-size: 30px;
    text-align: center;
    color:#fff;
     width:100%;
    @include font;
  }
  img{
+   width:95%;
    border-bottom: 3px solid #52A5EB;
  }
  button{
+   position: absolute;
+   left:35%;
    padding:10px 20px;
    border:none;
    color:#fff;
@@ -83,7 +92,7 @@ nav{
     display:flex;
   ul{
     margin-left:-10px;
-    margin-top:22px;
+    margin-top:52px;
     li{
       background-size: 200% auto;
       display: block;
@@ -100,6 +109,7 @@ nav{
   img{
     width:200px;
     height:65px;
+   @include dist;
     padding:0px  0px  0px 30px;
   }
 }

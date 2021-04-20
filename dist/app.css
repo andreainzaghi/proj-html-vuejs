@@ -1,6 +1,7 @@
 #root {
   background-size: cover;
   background-image: url("../img/aaaa.jpg");
+  background-position: 0 -50px;
 }
 
 header {
@@ -38,21 +39,26 @@ header .bottoni-hero .a button #c {
 }
 header .immagine-centrale-hero {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 header .immagine-centrale-hero .p-hero-header {
-  font-size: 35px;
+  background: black;
+  background: linear-gradient(207deg, rgba(0, 0, 0, 0.1516981793) 0%, rgba(0, 0, 0, 0.1601015406) 0%);
+  font-size: 30px;
   text-align: center;
   color: #fff;
   width: 100%;
   font-family: "Montserrat", sans-serif;
 }
 header .immagine-centrale-hero img {
+  width: 95%;
   border-bottom: 3px solid #52A5EB;
 }
 header .immagine-centrale-hero button {
+  position: absolute;
+  left: 35%;
   padding: 10px 20px;
   border: none;
   color: #fff;
@@ -73,7 +79,7 @@ nav .nav-header {
 }
 nav .nav-header ul {
   margin-left: -10px;
-  margin-top: 22px;
+  margin-top: 52px;
 }
 nav .nav-header ul li {
   background-size: 200% auto;
@@ -90,6 +96,7 @@ nav .nav-header ul li {
 nav .nav-header img {
   width: 200px;
   height: 65px;
+  margin-top: 30px;
   padding: 0px 0px 0px 30px;
 }
 
