@@ -162,6 +162,7 @@ main{
   background-size: cover;
 
   .container-main{
+    padding: 100px;
     width:100%;
     height:1200px;
     .titolo-main{
@@ -176,9 +177,19 @@ main{
       }
       h2{
         font-size: 35px;
+        margin:20px;
       }
       p{
         font-size: 10px;
+      }
+
+    }
+  }
+  .quattro-immagini{
+    display: flex;
+    .due-immagini{
+      img{
+        width:300px;
       }
     }
   }
