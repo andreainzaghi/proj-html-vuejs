@@ -232,27 +232,27 @@ main{
     height:100%;
     background-image: url('../img/a1.jpg');
     background-size: cover;
-      background-position: 0 -240px ;
-      h3{
-        color:$red-c;
-        @include font;
-        font-size: 15px;
-      }
-      h2{
-        @include font;
-        color:#fff;
-        font-size: 40px;
-        padding:20px 0px;
-      }
-      h5{
-        @include font;
-        color:#fff;
-        font-size: 13px;
-        padding:10px;
-        background-color:$blue ;
-        height:35px;
-        width:130px;
-      }
+    background-position: 0 -240px ;
+    h3{
+      color:$red-c;
+      @include font;
+      font-size: 15px;
+    }
+    h2{
+      @include font;
+      color:#fff;
+      font-size: 40px;
+      padding:20px 0px;
+    }
+    h5{
+      @include font;
+      color:#fff;
+      font-size: 13px;
+      padding:10px;
+      background-color:$blue ;
+      height:35px;
+      width:130px;
+    }
   }
   .a2{
     border-top: 3px solid $blue;

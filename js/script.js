@@ -16,23 +16,23 @@ new Vue({
     ],
 
     items: [{ img:'img/111.jpg',
-              title:'Dj Fusion',
-              date:'August 18, 2021 @ 8.00 am'},
-              {img:'img/222.jpg',
-              title:'Dj Fusion',
-              date:'August 18, 2021 @ 8.00 am'},
-              {img:'img/333.jpg',
-              title:'Dj Fusion',
-              date:'August 18, 2021 @ 8.00 am'},
-              {img:'img/444.jpg',
-              title:'Dj Fusion',
-              date:'August 18, 2021 @ 8.00 am'},
-              {img:'img/555.jpg',
-              title:'Dj Fusion',
-              date:'August 18, 2021 @ 8.00 am'},
-              {img:'img/665.jpg',
-              title:'Dj Fusion',
-              date:'August 18, 2021 @ 8.00 am'}]
+    title:'Dj Fusion',
+    date:'August 18, 2021 @ 8.00 am'},
+    {img:'img/222.jpg',
+    title:'Dj Fusion',
+    date:'August 18, 2021 @ 8.00 am'},
+    {img:'img/333.jpg',
+    title:'Dj Fusion',
+    date:'August 18, 2021 @ 8.00 am'},
+    {img:'img/444.jpg',
+    title:'Dj Fusion',
+    date:'August 18, 2021 @ 8.00 am'},
+    {img:'img/555.jpg',
+    title:'Dj Fusion',
+    date:'August 18, 2021 @ 8.00 am'},
+    {img:'img/665.jpg',
+    title:'Dj Fusion',
+    date:'August 18, 2021 @ 8.00 am'}]
 
   },
   computed: { },
@@ -40,18 +40,18 @@ new Vue({
     shuffle: function () {
       let counter = this.items.length;
 
-          while (counter > 0) {
-            let randomIndex = Math.floor(Math.random() * counter);
+      while (counter > 0) {
+        let randomIndex = Math.floor(Math.random() * counter);
 
-            counter--;
+        counter--;
 
-            let temp = this.items[counter];
-            Vue.set(this.items, counter, this.items[randomIndex]);
-            Vue.set(this.items, randomIndex, temp);
-          }
+        let temp = this.items[counter];
+        Vue.set(this.items, counter, this.items[randomIndex]);
+        Vue.set(this.items, randomIndex, temp);
+      }
 
-          this.shuffledDeck = true;
-          this.shuffleCount++;
+      this.shuffledDeck = true;
+      this.shuffleCount++;
     }
   }
 })
