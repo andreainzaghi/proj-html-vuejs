@@ -14,7 +14,12 @@ new Vue({
       { date:'img/4.jpg',
       message: 'resident dj'}
     ],
-    
+    // fotoDue:[
+    //   { date:'img/a1.jpg',
+    //   message: 'dance lounge'},
+    //   { date:'img/a2.jpg',
+    //   message: 'rooftopbar'}
+    // ]
   },
   computed: { },
   methods:{

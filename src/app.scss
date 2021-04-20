@@ -3,6 +3,8 @@
   padding:0;
   box-sizing: border-box;
 }
+$red-c:#f53c81;
+$blue:#0193b0;
 @mixin font {
   font-family: 'Montserrat', sans-serif;
 }
@@ -172,7 +174,7 @@ main{
       margin:auto;
       h3{
         margin-top: 80px;
-        color:#4FA1E4;
+        color:$blue;
       }
       h2{
         font-size: 35px;
@@ -224,17 +226,61 @@ main{
   width:100%;
   height:500px;
   .a1{
+    border-top: 3px solid $red-c;
     width:100%;
+    padding:50px 40px;
     height:100%;
     background-image: url('../img/a1.jpg');
     background-size: cover;
-      background-position: 0 -200px ;
+      background-position: 0 -240px ;
+      h3{
+        color:$red-c;
+        @include font;
+        font-size: 15px;
+      }
+      h2{
+        @include font;
+        color:#fff;
+        font-size: 40px;
+        padding:20px 0px;
+      }
+      h5{
+        @include font;
+        color:#fff;
+        font-size: 13px;
+        padding:10px;
+        background-color:$blue ;
+        height:35px;
+        width:130px;
+      }
   }
   .a2{
+    border-top: 3px solid $blue;
     width:100%;
     height:100%;
-          background-position: 0 0px ;
-      background-size: cover;
+    background-position: 0 0px ;
+    background-size: cover;
+    padding:50px 40px;
     background-image: url('../img/a2.jpg');
+    h3{
+      font-size: 15px;
+      color:$blue;
+      @include font;
+    }
+    h2{
+      padding:20px 0px;
+      @include font;
+      color:#fff;
+      font-size: 40px;
+    }
+    h5{
+      @include font;
+      height:35px;
+      width:130px;
+      color:#fff;
+      font-size: 13px;
+      padding:10px;
+      background-color: $red-c;
+    }
   }
 }
