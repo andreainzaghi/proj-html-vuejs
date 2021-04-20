@@ -166,6 +166,11 @@ main .container-main .titolo-main p {
 }
 main .quattro-immagini {
   display: flex;
+  margin-left: 209px;
+  width: 1018px;
+}
+main .quattro-immagini .due-immagini {
+  width: 300px;
 }
 main .quattro-immagini .due-immagini img {
   width: 300px;
