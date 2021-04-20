@@ -1,11 +1,17 @@
-#root {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sfondo-header {
   background-size: cover;
   background-image: url("../img/aaaa.jpg");
   background-position: 0 -50px;
 }
 
 header {
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   position: relative;
 }
@@ -39,13 +45,13 @@ header .bottoni-hero .a button #c {
 }
 header .immagine-centrale-hero {
   position: absolute;
-  top: 60%;
+  top: 55%;
+  background: black;
+  background: linear-gradient(207deg, rgba(0, 0, 0, 0.1516981793) 0%, rgba(0, 0, 0, 0.1601015406) 0%);
   left: 50%;
   transform: translate(-50%, -50%);
 }
 header .immagine-centrale-hero .p-hero-header {
-  background: black;
-  background: linear-gradient(207deg, rgba(0, 0, 0, 0.1516981793) 0%, rgba(0, 0, 0, 0.1601015406) 0%);
   font-size: 30px;
   text-align: center;
   color: #fff;
@@ -56,9 +62,28 @@ header .immagine-centrale-hero img {
   width: 95%;
   border-bottom: 3px solid #52A5EB;
 }
+header .immagine-centrale-hero .p-p-hero-header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: -20px;
+  font-family: "Montserrat", sans-serif;
+}
+header .immagine-centrale-hero .play-button-i {
+  font-size: 65px;
+  margin: 0px 15px;
+  margin-bottom: -20px;
+}
+header .immagine-centrale-hero .play-button-b {
+  font-size: 19px;
+  margin-left: -60px;
+  margin-right: 55px;
+  text-align: center;
+}
 header .immagine-centrale-hero button {
-  position: absolute;
-  left: 35%;
+  position: relative;
+  left: 40%;
+  margin-top: 15px;
   padding: 10px 20px;
   border: none;
   color: #fff;
@@ -69,6 +94,7 @@ header .immagine-centrale-hero button {
 nav {
   text-align: center;
   width: 1219px;
+  margin: auto;
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
@@ -86,6 +112,7 @@ nav .nav-header ul li {
   display: block;
   background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
   padding: 8px;
+  margin: 0 15px;
   transition: 0.5s;
   box-shadow: 0 0 5px #eee;
   border-radius: 5px;
@@ -95,9 +122,8 @@ nav .nav-header ul li {
 }
 nav .nav-header img {
   width: 200px;
-  height: 65px;
   margin-top: 30px;
-  padding: 0px 0px 0px 30px;
+  margin: 30px;
 }
 
 .bottoni-hero::after {
@@ -110,4 +136,29 @@ nav ul li:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
+}
+
+main {
+  background-image: url("../img/aas.jpg");
+  background-size: cover;
+}
+main .container-main {
+  width: 100%;
+  height: 1200px;
+}
+main .container-main .titolo-main {
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+}
+main .container-main .titolo-main h3 {
+  color: blue;
+}
+main .container-main .titolo-main h2 {
+  font-size: 35px;
+}
+main .container-main .titolo-main p {
+  font-size: 10px;
 }
