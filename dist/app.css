@@ -255,3 +255,12 @@ main .quattro-immagini .due-immagini img {
   padding: 10px;
   background-color: #f53c81;
 }
+
+.demo ul {
+  transition: transform 1s;
+}
+
+.immagine-shuffle {
+  max-width: 200px;
+  max-height: 100px;
+}

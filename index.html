@@ -74,9 +74,20 @@
             <h2>dj blondie</h2>
             <h5>VIEW PROFILE</h5>
           </div>
-      </div>
-    </main>
-  </div>
-  <script src="js/script.js" charset="utf-8"></script>
-</body>
-</html>
+        </div>
+      </main>
+      <section>
+        <!-- shuffle img -->
+        <div class="demo">
+          <button v-on:click="shuffle">Shuffle</button>
+            <div  v-for="item in items">
+              <img class="immagine-shuffle" :src="item.img" alt="">
+              <p>{{item.title}}</p>
+              <p>{{item.date}}</p>
+            </div>
+        </div>
+      </section>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+  </html>
