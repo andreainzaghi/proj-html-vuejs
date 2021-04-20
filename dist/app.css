@@ -169,14 +169,14 @@ main .quattro-immagini {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
-  margin-left: 200px;
-  width: 640px;
+  margin-left: 160px;
+  width: 680px;
 }
 main .quattro-immagini .due-immagini {
-  width: 320px;
+  width: 340px;
 }
 main .quattro-immagini .due-immagini img {
-  width: 320px;
+  width: 340px;
 }
 
 .immagini-4-messaggio {
@@ -190,4 +190,24 @@ main .quattro-immagini .due-immagini img {
   margin-left: 10px;
   list-style: none;
   position: absolute;
+}
+
+.due-immagini-dj {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+.due-immagini-dj .a1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/a1.jpg");
+  background-size: cover;
+  background-position: 0 -200px;
+}
+.due-immagini-dj .a2 {
+  width: 100%;
+  height: 100%;
+  background-position: 0 0px;
+  background-size: cover;
+  background-image: url("../img/a2.jpg");
 }

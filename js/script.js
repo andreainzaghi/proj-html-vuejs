@@ -13,7 +13,8 @@ new Vue({
       message: 'vip lounge'},
       { date:'img/4.jpg',
       message: 'resident dj'}
-    ]
+    ],
+    
   },
   computed: { },
   methods:{
