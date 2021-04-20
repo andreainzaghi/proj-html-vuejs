@@ -8,11 +8,11 @@ new Vue({
       { date:'img/1.jpg',
         message: 'dance lounge'},
       { date:'img/2.jpg',
-        message: 'dance lounge'},
+        message: 'rooftopbar'},
       { date:'img/3.jpg',
-        message: 'dance lounge'},
+        message: 'vip lounge'},
       { date:'img/4.jpg',
-        message: 'dance lounge'}
+        message: 'resident dj'}
       ]
   },
  computed: { },
