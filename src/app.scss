@@ -200,3 +200,16 @@ main{
     }
   }
 }
+// 4 immmagini
+.immagini-4-messaggio{
+  position: relative ;
+    list-style: none;
+  .messaggio-immagini{
+    color: #fff;
+    bottom:50px;
+      @include font;
+      margin-left:10px;
+    list-style: none;
+    position: absolute;
+  }
+}

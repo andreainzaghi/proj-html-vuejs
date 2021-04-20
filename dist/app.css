@@ -178,3 +178,16 @@ main .quattro-immagini .due-immagini {
 main .quattro-immagini .due-immagini img {
   width: 320px;
 }
+
+.immagini-4-messaggio {
+  position: relative;
+  list-style: none;
+}
+.immagini-4-messaggio .messaggio-immagini {
+  color: #fff;
+  bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+  list-style: none;
+  position: absolute;
+}
