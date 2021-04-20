@@ -6,17 +6,17 @@ new Vue({
     listNavbar:['JOBS','NEWS','CONTACT US'],
     fotoUno:[
       { date:'img/1.jpg',
-        message: 'dance lounge'},
+      message: 'dance lounge'},
       { date:'img/2.jpg',
-        message: 'rooftopbar'},
+      message: 'rooftopbar'},
       { date:'img/3.jpg',
-        message: 'vip lounge'},
+      message: 'vip lounge'},
       { date:'img/4.jpg',
-        message: 'resident dj'}
-      ]
+      message: 'resident dj'}
+    ]
   },
- computed: { },
- methods:{
+  computed: { },
+  methods:{
 
- }
+  }
 });
