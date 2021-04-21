@@ -79,12 +79,14 @@
     <section>
       <!-- shuffle img -->
       <div class="demo">
-        <div  v-for="item in items">
+      <div class="display-img-shuffle">
+        <div class="img-shuffle" v-for="item in items">
           <img class="immagine-shuffle" :src="item.img" alt="">
-          <p>{{item.title}}</p>
-          <p>{{item.date}}</p>
+          <p id="paragrafo-rosso">{{item.title}}</p>
+          <p id="paragrafo-bianco">{{item.date}}</p>
         </div>
-        <button v-on:click="shuffle">Shuffle</button>
+      </div>
+        <button v-on:click="shuffle">SHUFFLE</button>
       </div>
     </section>
   </div>

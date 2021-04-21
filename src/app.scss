@@ -284,10 +284,46 @@ main{
     }
   }
 }
+.demo{
+    background-image: url('../img/a1a1.jpg');
+    background-size: cover;
+    height:100vh;
+    button{
+      background-color:  $red-c;
+      color:#fff;
+      width:110px;
+      height:30px;
+      @include font;
+    }
+}
 .demo ul{
   transition: transform 1s;
 }
-.immagine-shuffle{
-  max-width: 200px;
-  max-height: 100px;
+.display-img-shuffle{
+padding-top:100px;
+  max-width: 990px;
+  margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  .img-shuffle{
+
+      padding: 15px;
+    #paragrafo-rosso{
+      color:$red-c;
+      font-size: 20px;
+        @include font;
+    }
+    #paragrafo-bianco{
+      color:#fff;
+      font-size: 13px;
+        @include font;
+    }
+
+    .immagine-shuffle{
+        max-width: 300px;
+
+
+
+    }
+  }
 }

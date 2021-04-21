@@ -256,11 +256,43 @@ main .quattro-immagini .due-immagini img {
   background-color: #f53c81;
 }
 
+.demo {
+  background-image: url("../img/a1a1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.demo button {
+  background-color: #f53c81;
+  color: #fff;
+  width: 110px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
 .demo ul {
   transition: transform 1s;
 }
 
-.immagine-shuffle {
-  max-width: 200px;
-  max-height: 100px;
+.display-img-shuffle {
+  padding-top: 100px;
+  max-width: 990px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.display-img-shuffle .img-shuffle {
+  padding: 15px;
+}
+.display-img-shuffle .img-shuffle #paragrafo-rosso {
+  color: #f53c81;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.display-img-shuffle .img-shuffle #paragrafo-bianco {
+  color: #fff;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+.display-img-shuffle .img-shuffle .immagine-shuffle {
+  max-width: 300px;
 }
