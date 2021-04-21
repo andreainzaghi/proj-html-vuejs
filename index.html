@@ -20,7 +20,7 @@
         <nav>
           <div class="nav-header">
             <ul   v-for="(item,index) in listNav">
-              <li @click="popUpdown,prova(index)">{{listNav[currentUser].title}}</li>
+              <li @click="prova(index)"><p  @click="popUpdown">{{item.title}}</p> </li>
             </ul>
             <img src="img/n-club.png" alt="">
             <!-- <ul v-for="items in listNavbar">
