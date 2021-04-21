@@ -79,6 +79,7 @@ header{
       width:100%;
       text-align: center;
       color: #fff;
+    
       line-height: -20px;
       @include font;
     }
@@ -362,4 +363,39 @@ footer{
   background-size: cover;
   height:300px;
   width:100%;
+}
+.section-pop{
+    z-index: 220;
+    position: relative;
+   video{
+  width:200px;
+
+
+}
+}
+.footer-text{
+  display: flex;
+    height:300px;
+  justify-content: center;
+  align-items: center;
+   @include font;
+  .footer-vip{
+    margin-right: 80px;
+   h6{
+     color:$blue;
+     font-size: 17px;
+   }
+   h3{
+     color:#fff;
+     font-size: 40px;
+   }
+  }
+  .button-footer{
+
+    button{
+      background-color: $red-c;
+      padding:8px;
+        color:#fff;
+    }
+  }
 }

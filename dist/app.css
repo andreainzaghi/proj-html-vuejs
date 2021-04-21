@@ -66,6 +66,7 @@ header .immagine-centrale-hero .p-p-hero-header {
   width: 100%;
   text-align: center;
   color: #fff;
+  margin-top: -20px;
   line-height: -20px;
   font-family: "Montserrat", sans-serif;
 }
@@ -333,4 +334,36 @@ footer {
   background-size: cover;
   height: 300px;
   width: 100%;
+}
+
+.section-pop {
+  z-index: 220;
+  position: relative;
+}
+.section-pop video {
+  width: 200px;
+}
+
+.footer-text {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-text .footer-vip {
+  margin-right: 80px;
+}
+.footer-text .footer-vip h6 {
+  color: #0193b0;
+  font-size: 17px;
+}
+.footer-text .footer-vip h3 {
+  color: #fff;
+  font-size: 40px;
+}
+.footer-text .button-footer button {
+  background-color: #f53c81;
+  padding: 8px;
+  color: #fff;
 }

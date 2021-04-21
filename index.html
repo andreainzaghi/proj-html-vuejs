@@ -19,12 +19,12 @@
       <header>
         <nav>
           <div class="nav-header">
-            <ul v-for="item in listNav">
-              <li>{{item}}</li>
+            <ul   v-for="(item,index) in listNav">
+              <li >{{item}}</li>
             </ul>
             <img src="img/n-club.png" alt="">
-            <ul v-for="items in listNavbar">
-              <li>{{items}}</li>
+            <ul v-for="(items,index) in listNavbar">
+              <li  >{{items}}</li>
             </ul>
           </div>
         </nav>
@@ -37,13 +37,25 @@
             <button type="button" name="button"><div > <span  id="d">$</span > <span id="c">39</span> </div> <div id="b">On sale </div> </button>
           </div>
         </div>
-        <div class="immagine-centrale-hero">
-          <img src="img/nt.png" alt="">
-          <p class="p-hero-header">making memories all night long</p>
-          <button type="button" name="button">BECOME A VIP</button>
-          <div class="p-p-hero-header">VIEW CLUB <span class="play-button-i"><i class="far fa-circle"></i></span>  <span class="play-button-b"><i class="fas fa-play"></i></span>SHOW REEL </div>
+        <!-- sezione a scomparsa -->
+        <!-- <div class="section-popup" v-for="(vide,index) in videos" >
+         <div class="section-pop"  >
+           <video id="myVideo">
+             <source id="mp4_src" :src="videos[index].video" type="video/mp4">
+           </video>
+         </div>
+         <button onclick="playVid()" type="button">Play Video</button>
+         <button onclick="pauseVid()" type="button">Pause Video</button>
+        </div> -->
+            <!-- sezione a scomparsa -->
+            <div class="immagine-centrale-hero">
+              <img src="img/nt.png" alt="">
+              <p class="p-hero-header">making memories all night long</p>
+              <button type="button" name="button">BECOME A VIP</button>
+              <div class="p-p-hero-header">VIEW CLUB <span class="play-button-i"><i class="far fa-circle"></i></span>
+                 <span class="play-button-b"><i class="fas fa-play"></i></span>SHOW REEL </div>
 
-        </div>
+            </div>
       </header>
     </div>
     <!-- main -->
@@ -96,8 +108,38 @@
         <button v-on:click="shuffle">SHUFFLE</button>
       </div>
     </section>
-    <footer></footer>
+    <footer>
+  <!-- <button @click="show = !show">
+    Toggle
+  </button>
+  <div
+    v-on:before-enter="beforeEnter"
+    v-on:enter="enter"
+    v-on:leave="leave"
+    v-bind:css="false"
+  >
+    <div v-if="show">
+
+<div class="">
+  <p>jdjdjdj</p>
+    <img src="img/555.jpg" alt="" height="100px">
+</div>
+
+
+    </div>
+  </div> -->
+  <div class="footer-text">
+    <div class="footer-vip">
+      <h6>BECOME A VIP TONIGHT</h6>
+      <h3>exclusive vip lounge</h3>
+    </div>
+    <div class="button-footer">
+      <button type="button" name="button">JOIN THE CLUB</button>
+    </div>
+  </div>
+</footer>
   </div>
   <script src="js/script.js" charset="utf-8"></script>
+    <script src="js/appfunctions.js" charset="utf-8"></script>
 </body>
 </html>
