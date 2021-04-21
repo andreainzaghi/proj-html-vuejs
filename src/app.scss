@@ -316,6 +316,7 @@ main{
 }
 .display-img-shuffle{
 padding-top:40px;
+   transition: transform 1s;
   max-width: 840px;
   margin: auto;
     display: flex;
@@ -336,8 +337,6 @@ z-index: 33;
 
     .immagine-shuffle{
         max-width: 250px;
-
-
 
 
     }
