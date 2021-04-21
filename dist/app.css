@@ -263,6 +263,15 @@ main .quattro-immagini .due-immagini img {
   position: relative;
   height: 150vh;
 }
+.demo .overlay-black {
+  position: absolute;
+  top: 0;
+  opacity: 0.2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+}
 .demo button {
   background-color: #f53c81;
   color: #fff;
@@ -286,6 +295,7 @@ main .quattro-immagini .due-immagini img {
   flex-wrap: wrap;
 }
 .display-img-shuffle .img-shuffle {
+  z-index: 33;
   padding: 15px;
 }
 .display-img-shuffle .img-shuffle #paragrafo-rosso {
@@ -305,6 +315,8 @@ main .quattro-immagini .due-immagini img {
 .title-special-event {
   text-align: center;
   padding-top: 200px;
+  z-index: 11;
+  position: relative;
   font-family: "Montserrat", sans-serif;
 }
 .title-special-event h5 {

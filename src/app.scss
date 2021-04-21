@@ -290,6 +290,16 @@ main{
     background-position: -300px;
     position: relative;
     height:150vh;
+    .overlay-black{
+      position: absolute;
+      top:0;
+      opacity: 0.2;
+      bottom:0;
+      left:0;
+      right: 0;
+      background-color: black;
+
+    }
     button{
       background-color:  $red-c;
       color:#fff;
@@ -311,7 +321,7 @@ padding-top:40px;
     display: flex;
     flex-wrap: wrap;
   .img-shuffle{
-
+z-index: 33;
       padding: 15px;
     #paragrafo-rosso{
       color:$red-c;
@@ -336,6 +346,8 @@ padding-top:40px;
 .title-special-event{
   text-align: center;
   padding-top:200px;
+  z-index: 11;
+  position:relative;
 
     @include font;
     h5{
