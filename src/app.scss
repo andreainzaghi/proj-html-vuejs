@@ -287,8 +287,9 @@ main{
 .demo{
     background-image: url('../img/a1a1.jpg');
     background-size: cover;
+    background-position: -300px;
     position: relative;
-    height:110vh;
+    height:150vh;
     button{
       background-color:  $red-c;
       color:#fff;
@@ -334,7 +335,7 @@ padding-top:40px;
 }
 .title-special-event{
   text-align: center;
-  padding-top:100px;
+  padding-top:200px;
 
     @include font;
     h5{
@@ -344,4 +345,10 @@ padding-top:40px;
       color:#fff;
       font-size: 27px;
     }
+}
+footer{
+  background-image: url('../img/123.jpg');
+  background-size: cover;
+  height:300px;
+  width:100%;
 }
