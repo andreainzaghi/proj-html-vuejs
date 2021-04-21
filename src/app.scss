@@ -287,12 +287,16 @@ main{
 .demo{
     background-image: url('../img/a1a1.jpg');
     background-size: cover;
+    position: relative;
     height:100vh;
     button{
       background-color:  $red-c;
       color:#fff;
-      width:110px;
-      height:30px;
+      position:absolute;
+      left:43%;
+      width:130px;
+      margin:30px;
+      height:40px;
       @include font;
     }
 }
@@ -321,6 +325,7 @@ padding-top:100px;
 
     .immagine-shuffle{
         max-width: 300px;
+      
 
 
 
