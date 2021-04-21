@@ -288,7 +288,7 @@ main{
     background-image: url('../img/a1a1.jpg');
     background-size: cover;
     position: relative;
-    height:100vh;
+    height:110vh;
     button{
       background-color:  $red-c;
       color:#fff;
@@ -296,7 +296,7 @@ main{
       left:43%;
       width:130px;
       margin:30px;
-      height:40px;
+      height:35px;
       @include font;
     }
 }
@@ -304,8 +304,8 @@ main{
   transition: transform 1s;
 }
 .display-img-shuffle{
-padding-top:100px;
-  max-width: 990px;
+padding-top:40px;
+  max-width: 840px;
   margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -314,21 +314,34 @@ padding-top:100px;
       padding: 15px;
     #paragrafo-rosso{
       color:$red-c;
-      font-size: 20px;
+      font-size: 15px;
         @include font;
     }
     #paragrafo-bianco{
       color:#fff;
-      font-size: 13px;
+      font-size: 10px;
         @include font;
     }
 
     .immagine-shuffle{
-        max-width: 300px;
-      
+        max-width: 250px;
+
 
 
 
     }
   }
+}
+.title-special-event{
+  text-align: center;
+  padding-top:100px;
+
+    @include font;
+    h5{
+      color:$red-c;
+    }
+    h2{
+      color:#fff;
+      font-size: 27px;
+    }
 }

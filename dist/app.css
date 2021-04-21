@@ -260,7 +260,7 @@ main .quattro-immagini .due-immagini img {
   background-image: url("../img/a1a1.jpg");
   background-size: cover;
   position: relative;
-  height: 100vh;
+  height: 110vh;
 }
 .demo button {
   background-color: #f53c81;
@@ -269,7 +269,7 @@ main .quattro-immagini .due-immagini img {
   left: 43%;
   width: 130px;
   margin: 30px;
-  height: 40px;
+  height: 35px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -278,8 +278,8 @@ main .quattro-immagini .due-immagini img {
 }
 
 .display-img-shuffle {
-  padding-top: 100px;
-  max-width: 990px;
+  padding-top: 40px;
+  max-width: 840px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -289,14 +289,27 @@ main .quattro-immagini .due-immagini img {
 }
 .display-img-shuffle .img-shuffle #paragrafo-rosso {
   color: #f53c81;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
 .display-img-shuffle .img-shuffle #paragrafo-bianco {
   color: #fff;
-  font-size: 13px;
+  font-size: 10px;
   font-family: "Montserrat", sans-serif;
 }
 .display-img-shuffle .img-shuffle .immagine-shuffle {
-  max-width: 300px;
+  max-width: 250px;
+}
+
+.title-special-event {
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+.title-special-event h5 {
+  color: #f53c81;
+}
+.title-special-event h2 {
+  color: #fff;
+  font-size: 27px;
 }
