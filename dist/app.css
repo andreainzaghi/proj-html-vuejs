@@ -66,7 +66,6 @@ header .immagine-centrale-hero .p-p-hero-header {
   width: 100%;
   text-align: center;
   color: #fff;
-  margin-top: -20px;
   line-height: -20px;
   font-family: "Montserrat", sans-serif;
 }
@@ -109,6 +108,7 @@ nav .nav-header ul {
   margin-top: 52px;
 }
 nav .nav-header ul li {
+  cursor: pointer;
   background-size: 200% auto;
   display: block;
   background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
@@ -336,12 +336,28 @@ footer {
   width: 100%;
 }
 
-.section-pop {
-  z-index: 220;
+.sectionpopup {
   position: relative;
+  top: 0;
+  z-index: 444;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.section-pop video {
-  width: 200px;
+
+.popup {
+  z-index: 444;
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.display {
+  display: none;
 }
 
 .footer-text {

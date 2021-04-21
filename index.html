@@ -20,12 +20,12 @@
         <nav>
           <div class="nav-header">
             <ul   v-for="(item,index) in listNav">
-              <li >{{item}}</li>
+              <li @click="popUpdown,prova(index)">{{listNav[currentUser].title}}</li>
             </ul>
             <img src="img/n-club.png" alt="">
-            <ul v-for="(items,index) in listNavbar">
-              <li  >{{items}}</li>
-            </ul>
+            <!-- <ul v-for="items in listNavbar">
+              <li @click="popUpdown" >{{items.nav}}</li>
+            </ul> -->
           </div>
         </nav>
         <!-- bottoni -->
@@ -38,6 +38,13 @@
           </div>
         </div>
         <!-- sezione a scomparsa -->
+        <div class="sectionpopup">
+          <div :class="popUp" >
+            <ul  v-for="(item,index) in listNav">
+                <li>{{listNav[currentUser].title}}</li>
+            </ul>
+          </div>
+        </div>
         <!-- <div class="section-popup" v-for="(vide,index) in videos" >
          <div class="section-pop"  >
            <video id="myVideo">
@@ -52,8 +59,12 @@
               <img src="img/nt.png" alt="">
               <p class="p-hero-header">making memories all night long</p>
               <button type="button" name="button">BECOME A VIP</button>
-              <div class="p-p-hero-header">VIEW CLUB <span class="play-button-i"><i class="far fa-circle"></i></span>
-                 <span class="play-button-b"><i class="fas fa-play"></i></span>SHOW REEL </div>
+              <div class="p-p-hero-header">
+                VIEW CLUB
+                 <span class="play-button-i"><i class="far fa-circle"></i></span>
+                 <span class="play-button-b"><i class="fas fa-play"></i></span>
+                 SHOW REEL
+               </div>
 
             </div>
       </header>

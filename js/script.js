@@ -2,9 +2,10 @@
 new Vue({
   el: '#root',
   data: {
-    listNav:['HOME','THE CLUB','EVENTS'],
-     show: false,
-    listNavbar:['JOBS','NEWS','CONTACT US'],
+    popUp:'display',
+    listNav:[{nav:'HOME',title:'home'},{nav:'THE CLUB',title:'the club'},{nav:'EVENTS',title:'events'}],
+    show: false,
+      listNavbar:[{nav:'JOBS',title:'jobs'},{nav:'NEWS',title:'news'},{nav:'CONTACT US',title:'CONTACT US'}],
     fotoUno:[
       { date:'img/1.jpg',
       message: 'dance lounge'},
@@ -15,10 +16,10 @@ new Vue({
       { date:'img/4.jpg',
       message: 'resident dj'}
     ],
-  //   videos: [
-  //   { video:'video/video1.mp4',
-  //   title:'Dj Fusion',
-  //   date:'August 28, 2021 @ 22.00 am'},
+    //   videos: [
+    //   { video:'video/video1.mp4',
+    //   title:'Dj Fusion',
+    //   date:'August 28, 2021 @ 22.00 am'},
   //   {video:'video/video2.mov',
   //   title:'House Nation',
   //   date:'September 9, 2021 @ 22.00 am'},
@@ -50,6 +51,14 @@ new Vue({
   methods: {
     prova:function(index){
     this.currentUser=index;
+  },
+  popUpdown:function(){
+    if (this.popUp == 'display') {
+       this.popUp = 'popup';
+    } else{
+      this.popUp = 'display';
+    }
+
   },
    //  beforeEnter: function (el) {
    //   el.style.opacity = 0

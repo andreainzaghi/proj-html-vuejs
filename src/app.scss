@@ -79,7 +79,7 @@ header{
       width:100%;
       text-align: center;
       color: #fff;
-    
+
       line-height: -20px;
       @include font;
     }
@@ -124,6 +124,7 @@ nav{
       margin-left:-10px;
       margin-top:52px;
       li{
+        cursor: pointer;
         background-size: 200% auto;
         display: block;
         background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
@@ -364,14 +365,27 @@ footer{
   height:300px;
   width:100%;
 }
-.section-pop{
-    z-index: 220;
-    position: relative;
-   video{
-  width:200px;
-
+.sectionpopup{
+position: relative;
+top:0;
+z-index: 444;
+bottom:0;
+left:0;
+right:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
+.popup{
+  z-index: 444;
+  width:500px;
+  height:400px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.display{
+  display:none;
 }
 .footer-text{
   display: flex;
