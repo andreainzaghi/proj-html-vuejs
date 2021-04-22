@@ -19,8 +19,8 @@
       <header>
         <nav>
           <div class="nav-header">
-            <ul   v-for="(item,index) in listNav">
-              <li @click="prova(index)"><p  @click="popUpdown">{{item.title}}</p> </li>
+            <ul   v-for="(item,index) in listNav" >
+              <li  @click="prova(index)"><p  @click="popUpdown">{{item.nav}}</p> </li>
             </ul>
             <img src="img/n-club.png" alt="">
             <!-- <ul v-for="items in listNavbar">
@@ -40,8 +40,8 @@
         <!-- sezione a scomparsa -->
         <div class="sectionpopup">
           <div :class="popUp" >
-            <ul  v-for="(item,index) in listNav">
-                <li>{{listNav[currentUser].title}}</li>
+            <ul  v-for="item in listNav[currentUser]">
+                <li>{{item.title}}</li>
             </ul>
           </div>
         </div>
@@ -60,10 +60,11 @@
               <p class="p-hero-header">making memories all night long</p>
               <button type="button" name="button">BECOME A VIP</button>
               <div class="p-p-hero-header">
-                VIEW CLUB
-                 <span class="play-button-i"><i class="far fa-circle"></i></span>
-                 <span class="play-button-b"><i class="fas fa-play"></i></span>
-                 SHOW REEL
+              <p class="play-botton" >  VIEW CLUB </p>
+                 <!-- <span class="play-button-i"><i class="far fa-circle"></i></span>
+                 <span class="play-button-b"><i class="fas fa-play"></i></span> -->
+                 <span class="play-button-d"><i class="far fa-play-circle"></i></span>
+                <p  class="play-botton"> SHOW REEL</p>
                </div>
 
             </div>
@@ -80,7 +81,11 @@
         <div class="quattro-immagini">
           <div class="due-immagini" v-for="item in fotoUno">
             <ul>
-              <li class="immagini-4-messaggio">  <img :src="item.date" alt=""><p class="messaggio-immagini">{{item.message}}</p></li>
+              <li class="immagini-4-messaggio">
+                 <img :src="item.date" alt="">
+                 <p class="messaggio-immagini">{{item.message}}</p>
+
+               </li>
             </ul>
           </div>
         </div>

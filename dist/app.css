@@ -64,7 +64,9 @@ header .immagine-centrale-hero img {
 }
 header .immagine-centrale-hero .p-p-hero-header {
   width: 100%;
-  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  margin-left: 29%;
   color: #fff;
   line-height: -20px;
   font-family: "Montserrat", sans-serif;
@@ -199,7 +201,7 @@ main .quattro-immagini .due-immagini img {
   height: 500px;
 }
 .due-immagini-dj .a1 {
-  border-top: 3px solid #f53c81;
+  border-top: 3px solid #AB1DE5;
   width: 100%;
   padding: 50px 40px;
   height: 100%;
@@ -208,7 +210,7 @@ main .quattro-immagini .due-immagini img {
   background-position: 0 -240px;
 }
 .due-immagini-dj .a1 h3 {
-  color: #f53c81;
+  color: #AB1DE5;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
@@ -254,7 +256,7 @@ main .quattro-immagini .due-immagini img {
   color: #fff;
   font-size: 13px;
   padding: 10px;
-  background-color: #f53c81;
+  background-color: #AB1DE5;
 }
 
 .demo {
@@ -274,7 +276,7 @@ main .quattro-immagini .due-immagini img {
   background-color: black;
 }
 .demo button {
-  background-color: #f53c81;
+  background-color: #AB1DE5;
   color: #fff;
   position: absolute;
   left: 43%;
@@ -301,7 +303,7 @@ main .quattro-immagini .due-immagini img {
   padding: 15px;
 }
 .display-img-shuffle .img-shuffle #paragrafo-rosso {
-  color: #f53c81;
+  color: #AB1DE5;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
@@ -322,7 +324,7 @@ main .quattro-immagini .due-immagini img {
   font-family: "Montserrat", sans-serif;
 }
 .title-special-event h5 {
-  color: #f53c81;
+  color: #AB1DE5;
 }
 .title-special-event h2 {
   color: #fff;
@@ -379,7 +381,18 @@ footer {
   font-size: 40px;
 }
 .footer-text .button-footer button {
-  background-color: #f53c81;
+  background-color: #AB1DE5;
   padding: 8px;
   color: #fff;
+}
+
+.play-button-d {
+  font-size: 50px;
+  margin-top: -20px;
+  padding: 0 15px;
+  color: #0193b0;
+}
+
+.play-botton {
+  color: #0193b0;
 }

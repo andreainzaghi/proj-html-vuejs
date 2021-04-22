@@ -3,7 +3,7 @@
   padding:0;
   box-sizing: border-box;
 }
-$red-c:#f53c81;
+$red-c:#AB1DE5;
 $blue:#0193b0;
 @mixin font {
   font-family: 'Montserrat', sans-serif;
@@ -77,7 +77,10 @@ header{
     }
     .p-p-hero-header{
       width:100%;
-      text-align: center;
+      margin-top: 50px;
+      display: flex;
+    margin-left: 29%;
+
       color: #fff;
 
       line-height: -20px;
@@ -221,6 +224,7 @@ main{
     //   background-color: blue;
     // }
   }
+
 }
 // immaginnidj
 .due-immagini-dj{
@@ -412,4 +416,13 @@ right:0;
         color:#fff;
     }
   }
+}
+.play-button-d{
+  font-size: 50px;
+margin-top: -20px;
+padding: 0 15px;
+  color:$blue;
+}
+.play-botton{
+  color:$blue;
 }

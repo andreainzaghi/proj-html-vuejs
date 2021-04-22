@@ -3,9 +3,34 @@ new Vue({
   el: '#root',
   data: {
     popUp:'display',
-    listNav:[{nav:'HOME',title:'home'},{nav:'THE CLUB',title:'the club'},{nav:'EVENTS',title:'events'}],
+    listNav:[
+      {nav:'HOME',
+      title:'home'
+    },
+      {nav:'THE CLUB',
+      title:'the club'
+    },
+      {nav:'EVENTS',
+      title:'events'
+    },
+      {nav:'JOBS',
+      title:'jobs'
+    },
+      {nav:'NEWS',
+      title:'news'
+    },
+      {nav:'CONTACT US',
+      title:'CONTACT US'
+    }],
     show: false,
-      listNavbar:[{nav:'JOBS',title:'jobs'},{nav:'NEWS',title:'news'},{nav:'CONTACT US',title:'CONTACT US'}],
+    // listNavbar:[
+    //   {nav:'JOBS',
+    //   title:'jobs'},
+    //   {nav:'NEWS',
+    //   title:'news'},
+    //   {nav:'CONTACT US',
+    //   title:'CONTACT US'}
+    // ],
     fotoUno:[
       { date:'img/1.jpg',
       message: 'dance lounge'},
@@ -51,6 +76,7 @@ new Vue({
   methods: {
     prova:function(index){
     this.currentUser=index;
+    console.log(this.currentUser);
   },
   popUpdown:function(){
     if (this.popUp == 'display') {
