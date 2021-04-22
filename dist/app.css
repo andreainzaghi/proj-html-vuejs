@@ -435,3 +435,27 @@ footer {
 .play-botton {
   color: #0193b0;
 }
+
+.paper-plane {
+  z-index: 3;
+  height: 100px;
+  top: 50%;
+  left: 0%;
+  position: absolute;
+}
+
+.animation {
+  height: 100vh;
+  background-color: #0e1212;
+  position: relative;
+  background-image: url("../img/sas.png");
+  background-size: cover;
+  overflow: hidden;
+}
+.animation h2 {
+  font-size: 150px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #fff;
+  padding-top: 130px;
+}
