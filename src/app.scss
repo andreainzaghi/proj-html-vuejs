@@ -71,8 +71,13 @@ header{
       width:100%;
       @include font;
     }
-    img{
+    .img-fest{
       width:95%;
+      border-bottom: 3px solid #52A5EB;
+    }
+    .img-trasf{
+      width:95%;
+      transform: rotateY(180deg);
       border-bottom: 3px solid #52A5EB;
     }
     .p-p-hero-header{
@@ -125,7 +130,7 @@ nav{
     display:flex;
     ul{
       margin-left:-10px;
-      margin-top:52px;
+      margin-top:58px;
       li{
         cursor: pointer;
         background-size: 200% auto;

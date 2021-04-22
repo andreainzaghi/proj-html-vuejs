@@ -2,6 +2,7 @@
 new Vue({
   el: '#root',
   data: {
+    immagineFesta:'img-fest',
     popUp:'display',
       popUp1:'display',
     listNav:[
@@ -85,6 +86,15 @@ new Vue({
        this.popUp = 'popup';
          this.popUp1 = 'display';
     }
+
+  },
+  flip:function(){
+    if (this.immagineFesta == 'img-fest') {
+       this.immagineFesta = 'img-trasf';
+     }else{   this.immagineFesta = 'img-fest';
+   }
+
+
 
   },
   popDown:function(){

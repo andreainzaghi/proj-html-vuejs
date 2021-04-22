@@ -58,8 +58,13 @@ header .immagine-centrale-hero .p-hero-header {
   width: 100%;
   font-family: "Montserrat", sans-serif;
 }
-header .immagine-centrale-hero img {
+header .immagine-centrale-hero .img-fest {
   width: 95%;
+  border-bottom: 3px solid #52A5EB;
+}
+header .immagine-centrale-hero .img-trasf {
+  width: 95%;
+  transform: rotateY(180deg);
   border-bottom: 3px solid #52A5EB;
 }
 header .immagine-centrale-hero .p-p-hero-header {
@@ -107,7 +112,7 @@ nav .nav-header {
 }
 nav .nav-header ul {
   margin-left: -10px;
-  margin-top: 52px;
+  margin-top: 58px;
 }
 nav .nav-header ul li {
   cursor: pointer;
