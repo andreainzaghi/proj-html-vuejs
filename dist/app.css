@@ -46,8 +46,6 @@ header .bottoni-hero .a button #c {
 header .immagine-centrale-hero {
   position: absolute;
   top: 55%;
-  background: black;
-  background: linear-gradient(207deg, rgba(0, 0, 0, 0.1516981793) 0%, rgba(0, 0, 0, 0.1601015406) 0%);
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -65,6 +63,7 @@ header .immagine-centrale-hero .img-fest {
 header .immagine-centrale-hero .img-trasf {
   width: 95%;
   transform: rotateY(180deg);
+  filter: contrast(144);
   border-bottom: 3px solid #52A5EB;
 }
 header .immagine-centrale-hero .p-p-hero-header {

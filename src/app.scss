@@ -58,8 +58,8 @@ header{
   .immagine-centrale-hero{
     position: absolute;
     top:55%;
-    background: rgb(0,0,0);
-    background: linear-gradient(207deg, rgba(0,0,0,0.1516981792717087) 0%, rgba(0,0,0,0.16010154061624648) 0%);
+
+
 
     left:50%;
     transform: translate(-50%,-50%);
@@ -78,6 +78,7 @@ header{
     .img-trasf{
       width:95%;
       transform: rotateY(180deg);
+      filter: contrast(144);
       border-bottom: 3px solid #52A5EB;
     }
     .p-p-hero-header{
