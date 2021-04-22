@@ -254,10 +254,11 @@ main .quattro-immagini .due-immagini {
 .due-immagini-dj .a1 .overlay-blach {
   position: absolute;
   top: 0;
-  width: 360px;
+  width: 350px;
   background-color: black;
   bottom: 0;
   right: 0;
+  transition: width 2s;
 }
 .due-immagini-dj .a2 {
   border-top: 3px solid #0193b0;
@@ -300,10 +301,11 @@ main .quattro-immagini .due-immagini {
 .due-immagini-dj .a2 .overlay-blach {
   position: absolute;
   top: 0;
-  width: 360px;
+  width: 350px;
   bottom: 0;
   background-color: black;
   right: 0;
+  transition: width 2s;
 }
 
 .demo {

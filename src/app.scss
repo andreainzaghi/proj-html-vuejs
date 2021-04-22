@@ -285,10 +285,11 @@ main{
     .overlay-blach{
       position: absolute;
       top:0;
-      width:360px;
+      width:350px;
       background-color: black;
       bottom:0;
       right:0;
+      transition: width 2s;
     }
   }
   .a2{
@@ -331,13 +332,15 @@ main{
     .overlay-blach{
       position: absolute;
       top:0;
-      width:360px;
+      width:350px;
       bottom:0;
       background-color: black;
       right:0;
+       transition: width 2s;
     }
   }
 }
+
 .demo{
   background-image: url('../img/a1a1.jpg');
   background-size: cover;
