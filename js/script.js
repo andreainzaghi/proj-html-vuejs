@@ -5,22 +5,22 @@ new Vue({
     popUp:'display',
     listNav:[
       {nav:'HOME',
-      title:'home'
+      title:'img/f1.jfif'
     },
       {nav:'THE CLUB',
-      title:'the club'
+      title:'img/f2.jfif'
     },
       {nav:'EVENTS',
-      title:'events'
+      title:'img/f3.jfif'
     },
       {nav:'JOBS',
-      title:'jobs'
+      title:'img/f6.jfif'
     },
       {nav:'NEWS',
-      title:'news'
+        title:'img/f5.jfif'
     },
       {nav:'CONTACT US',
-      title:'CONTACT US'
+        title:'img/f6.jfif'
     }],
     show: false,
     // listNavbar:[
@@ -81,8 +81,12 @@ new Vue({
   popUpdown:function(){
     if (this.popUp == 'display') {
        this.popUp = 'popup';
-    } else{
-      this.popUp = 'display';
+    }
+
+  },
+  popDown:function(){
+    if (this.popUp == 'popup') {
+       this.popUp = 'display';
     }
 
   },

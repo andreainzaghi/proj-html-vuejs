@@ -40,9 +40,11 @@
         <!-- sezione a scomparsa -->
         <div class="sectionpopup">
           <div :class="popUp" >
-            <ul  v-for="item in listNav[currentUser]">
-                <li>{{item.title}}</li>
-            </ul>
+          <div class="close-btn">
+                <span>{{listNav[currentUser].nav}}</span>  <button @click="popDown" type="button" name="button"><i class="fas fa-times"></i></button>
+          </div>
+              <div> <img :src=" listNav[currentUser].title" alt=""></div>
+           </ul>
           </div>
         </div>
         <!-- <div class="section-popup" v-for="(vide,index) in videos" >

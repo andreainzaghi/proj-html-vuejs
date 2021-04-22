@@ -338,6 +338,21 @@ footer {
   width: 100%;
 }
 
+.close-btn {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+}
+.close-btn span {
+  margin-left: 42%;
+}
+.close-btn button {
+  padding: 2px 5px;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+
 .sectionpopup {
   position: relative;
   top: 0;
@@ -356,6 +371,10 @@ footer {
   height: 400px;
   background-color: #fff;
   border-radius: 10px;
+}
+.popup div img {
+  margin-left: 40px;
+  width: 80%;
 }
 
 .display {
