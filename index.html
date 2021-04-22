@@ -20,7 +20,7 @@
         <nav>
           <div class="nav-header">
             <ul   v-for="(item,index) in listNav" >
-              <li  @click="prova(index)"><p  @click="popUpdown">{{item.nav}}</p> </li>
+              <li id="top" @click="prova(index)"><p  @click="popUpdown">{{item.nav}}</p> </li>
             </ul>
             <img src="img/n-club.png" alt="">
             <ul   v-for="(item,index) in listNavbar" >
@@ -159,7 +159,8 @@
       <h3>exclusive vip lounge</h3>
     </div>
     <div class="button-footer">
-      <button type="button" name="button">JOIN THE CLUB</button>
+      <button   type="button" name="button"> <a href="#top">JOIN THE CLUB</a></button>
+
     </div>
   </div>
 </footer>

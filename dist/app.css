@@ -183,9 +183,6 @@ main .quattro-immagini {
 main .quattro-immagini .due-immagini {
   width: 340px;
 }
-main .quattro-immagini .due-immagini img {
-  width: 340px;
-}
 
 .immagini-4-messaggio {
   position: relative;
@@ -198,6 +195,18 @@ main .quattro-immagini .due-immagini img {
   margin-left: 10px;
   list-style: none;
   position: absolute;
+  position: relative;
+  height: 0;
+  z-index: 33;
+}
+.immagini-4-messaggio img {
+  width: 340px;
+}
+.immagini-4-messaggio img:hover {
+  transform: scale(1.1);
+  position: relative;
+  z-index: 33;
+  box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .due-immagini-dj {
@@ -357,6 +366,9 @@ footer {
   background-color: transparent;
   font-size: 15px;
 }
+.close-btn button:hover {
+  color: red;
+}
 
 .sectionpopup {
   position: relative;
@@ -407,6 +419,9 @@ footer {
 .footer-text .button-footer button {
   background-color: #AB1DE5;
   padding: 8px;
+}
+.footer-text .button-footer button a {
+  text-decoration: none;
   color: #fff;
 }
 
