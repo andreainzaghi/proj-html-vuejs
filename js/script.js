@@ -3,6 +3,7 @@ new Vue({
   el: '#root',
   data: {
     popUp:'display',
+      popUp1:'display',
     listNav:[
       {nav:'HOME',
       title:'img/f1.jfif'
@@ -12,7 +13,10 @@ new Vue({
     },
       {nav:'EVENTS',
       title:'img/f3.jfif'
-    },
+    }],
+
+    show: false,
+    listNavbar:[
       {nav:'JOBS',
       title:'img/f6.jfif'
     },
@@ -21,16 +25,8 @@ new Vue({
     },
       {nav:'CONTACT US',
         title:'img/f6.jfif'
-    }],
-    show: false,
-    // listNavbar:[
-    //   {nav:'JOBS',
-    //   title:'jobs'},
-    //   {nav:'NEWS',
-    //   title:'news'},
-    //   {nav:'CONTACT US',
-    //   title:'CONTACT US'}
-    // ],
+    }
+    ],
     fotoUno:[
       { date:'img/1.jpg',
       message: 'dance lounge'},
@@ -70,23 +66,43 @@ new Vue({
     {img:'img/665.jpg',
     title:'Urban Vibes',
     date:'July 19, 2021 @ 22.00 am'}],
-    currentUser:0
+    currentUser:0,
+    currentUser1:0
   },
   computed: { },
   methods: {
+
     prova:function(index){
     this.currentUser=index;
     console.log(this.currentUser);
   },
+  prova1:function(index){
+  this.currentUser1=index;
+  console.log(this.currentUser1);
+},
   popUpdown:function(){
     if (this.popUp == 'display') {
        this.popUp = 'popup';
+         this.popUp1 = 'display';
     }
 
   },
   popDown:function(){
     if (this.popUp == 'popup') {
        this.popUp = 'display';
+    }
+
+  },
+  popUpdown1:function(){
+    if (this.popUp1 == 'display') {
+       this.popUp1 = 'popup';
+        this.popUp = 'display';
+    }
+
+  },
+  popDown1:function(){
+    if (this.popUp1 == 'popup') {
+       this.popUp1 = 'display';
     }
 
   },
