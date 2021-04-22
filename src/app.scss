@@ -250,6 +250,7 @@ main{
     width:100%;
     padding:50px 40px;
     height:100%;
+    position: relative;
     background-image: url('../img/a1.jpg');
     background-size: cover;
     background-position: 0 -240px ;
@@ -264,7 +265,7 @@ main{
       font-size: 40px;
       padding:20px 0px;
     }
-    h5{
+    button{
       @include font;
       color:#fff;
       font-size: 13px;
@@ -273,11 +274,28 @@ main{
       height:35px;
       width:130px;
     }
+    .display-n{
+      position: absolute;
+      top:0;
+      width:0px;
+      background-color: black;
+      bottom:0;
+      right:0;
+    }
+    .overlay-blach{
+      position: absolute;
+      top:0;
+      width:360px;
+      background-color: black;
+      bottom:0;
+      right:0;
+    }
   }
   .a2{
     border-top: 3px solid $blue;
     width:100%;
     height:100%;
+    position: relative;
     background-position: 0 0px ;
     background-size: cover;
     padding:50px 40px;
@@ -293,7 +311,7 @@ main{
       color:#fff;
       font-size: 40px;
     }
-    h5{
+    button{
       @include font;
       height:35px;
       width:130px;
@@ -301,6 +319,22 @@ main{
       font-size: 13px;
       padding:10px;
       background-color: $red-c;
+    }
+    .display-n{
+      position: absolute;
+      top:0;
+      width:0px;
+      background-color: black;
+      bottom:0;
+      right:0;
+    }
+    .overlay-blach{
+      position: absolute;
+      top:0;
+      width:360px;
+      bottom:0;
+      background-color: black;
+      right:0;
     }
   }
 }

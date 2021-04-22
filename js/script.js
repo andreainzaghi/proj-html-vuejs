@@ -2,6 +2,8 @@
 new Vue({
   el: '#root',
   data: {
+    overlayBleach:'display-n',
+    overlayBleach1:'display-n',
     immagineFesta:'img-fest',
     popUp:'display',
     popUp1:'display',
@@ -93,6 +95,26 @@ methods: {
       this.immagineFesta = 'img-trasf';
     }else{   this.immagineFesta = 'img-fest';
   }
+
+
+
+},
+slider:function(){
+  if (this.overlayBleach== 'display-n') {
+    this.overlayBleach = 'overlay-blach';
+  }else{
+      this.overlayBleach = 'display-n';
+}
+
+
+
+},
+slider1:function(){
+  if (this.overlayBleach1== 'display-n') {
+    this.overlayBleach1 = 'overlay-blach';
+  }else{
+    this.overlayBleach1 = 'display-n';
+}
 
 
 
