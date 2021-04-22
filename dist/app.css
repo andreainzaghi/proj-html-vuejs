@@ -50,6 +50,7 @@ header .immagine-centrale-hero {
   transform: translate(-50%, -50%);
 }
 header .immagine-centrale-hero .p-hero-header {
+  text-shadow: 1px 1px black;
   font-size: 30px;
   text-align: center;
   color: #fff;
@@ -117,11 +118,10 @@ nav .nav-header ul li {
   cursor: pointer;
   background-size: 200% auto;
   display: block;
-  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+  background-image: linear-gradient(to right, transparent 0%, #8E54E9 51%, transparent 100%);
   padding: 4px 8px;
   margin: 0 15px;
   transition: 0.5s;
-  box-shadow: 0 0 5px #eee;
   border-radius: 5px;
   font-size: 12px;
   list-style: none;
@@ -394,14 +394,16 @@ footer {
   cursor: pointer;
   background-size: 200% auto;
   display: block;
-  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+  background-image: linear-gradient(to right, #C557E0 0%, #8E54E9 50%, #C557E0 100%);
   transition: 0.5s;
-  box-shadow: 0 0 5px #eee;
   border-radius: 10px;
 }
 .popup div img {
-  margin-left: 40px;
+  margin-left: 50px;
   width: 80%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
 }
 
 .display {
