@@ -85,7 +85,7 @@ header{
       width:100%;
       margin-top: 50px;
       display: flex;
-    margin-left: 29%;
+      margin-left: 29%;
 
       color: #fff;
 
@@ -235,7 +235,7 @@ main{
     transform: scale(1.1);
     position: relative;
     z-index: 33;
-     box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   }
 
 }
@@ -304,58 +304,58 @@ main{
   }
 }
 .demo{
-    background-image: url('../img/a1a1.jpg');
-    background-size: cover;
-    background-position: -300px;
-    position: relative;
-    height:150vh;
-    .overlay-black{
-      position: absolute;
-      top:0;
-      opacity: 0.2;
-      bottom:0;
-      left:0;
-      right: 0;
-      background-color: black;
+  background-image: url('../img/a1a1.jpg');
+  background-size: cover;
+  background-position: -300px;
+  position: relative;
+  height:150vh;
+  .overlay-black{
+    position: absolute;
+    top:0;
+    opacity: 0.2;
+    bottom:0;
+    left:0;
+    right: 0;
+    background-color: black;
 
-    }
-    button{
-      background-color:  $red-c;
-      color:#fff;
-      position:absolute;
-      left:43%;
-      width:130px;
-      margin:30px;
-      height:35px;
-      @include font;
-    }
+  }
+  button{
+    background-color:  $red-c;
+    color:#fff;
+    position:absolute;
+    left:43%;
+    width:130px;
+    margin:30px;
+    height:35px;
+    @include font;
+  }
 }
 .demo ul{
   transition: transform 1s;
 }
 .display-img-shuffle{
-padding-top:40px;
-   transition: transform 1s;
+  padding-top:40px;
+  transition: transform 1s;
   max-width: 840px;
   margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   .img-shuffle{
-z-index: 33;
-      padding: 15px;
+    z-index: 33;
+    padding: 15px;
     #paragrafo-rosso{
       color:$red-c;
       font-size: 15px;
-        @include font;
+      @include font;
     }
     #paragrafo-bianco{
       color:#fff;
       font-size: 10px;
-        @include font;
+      @include font;
     }
 
     .immagine-shuffle{
-        max-width: 250px;
+      max-width: 250px;
 
 
     }
@@ -367,14 +367,14 @@ z-index: 33;
   z-index: 11;
   position:relative;
 
-    @include font;
-    h5{
-      color:$red-c;
-    }
-    h2{
-      color:#fff;
-      font-size: 27px;
-    }
+  @include font;
+  h5{
+    color:$red-c;
+  }
+  h2{
+    color:#fff;
+    font-size: 27px;
+  }
 }
 footer{
   background-image: url('../img/123.jpg');
@@ -391,22 +391,22 @@ footer{
   }
   button{
     padding: 2px 5px;
-  border: none;
-  background-color: transparent;
-  font-size: 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
   }
   button:hover{
-  color:red;
+    color:red;
 
   }
 }
 .sectionpopup{
-position: relative;
-top:0;
-z-index: 444;
-bottom:0;
-left:0;
-right:0;
+  position: relative;
+  top:0;
+  z-index: 444;
+  bottom:0;
+  left:0;
+  right:0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -431,20 +431,20 @@ right:0;
 }
 .footer-text{
   display: flex;
-    height:300px;
+  height:300px;
   justify-content: center;
   align-items: center;
-   @include font;
+  @include font;
   .footer-vip{
     margin-right: 80px;
-   h6{
-     color:$blue;
-     font-size: 17px;
-   }
-   h3{
-     color:#fff;
-     font-size: 40px;
-   }
+    h6{
+      color:$blue;
+      font-size: 17px;
+    }
+    h3{
+      color:#fff;
+      font-size: 40px;
+    }
   }
   .button-footer{
 
@@ -452,17 +452,17 @@ right:0;
       background-color: $red-c;
       padding:8px;
 
-        a{
-          text-decoration: none;
-          color:#fff;
-        }
+      a{
+        text-decoration: none;
+        color:#fff;
+      }
     }
   }
 }
 .play-button-d{
   font-size: 50px;
-margin-top: -20px;
-padding: 0 15px;
+  margin-top: -20px;
+  padding: 0 15px;
   color:$blue;
 }
 .play-botton{
@@ -478,7 +478,7 @@ padding: 0 15px;
 }
 .animation{
   height: 100vh;
-background-color: #0e1212;
+  background-color: #0e1212;
   position: relative;
   background-image: url('../img/sas.png');
   background-size: cover;
