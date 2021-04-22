@@ -255,7 +255,8 @@ main .quattro-immagini .due-immagini {
   position: absolute;
   top: 0;
   width: 350px;
-  background-color: black;
+  background: black;
+  background: linear-gradient(94deg, rgba(0, 0, 0, 0) 0%, #0193b0 31%);
   bottom: 0;
   right: 0;
   transition: width 2s;
@@ -301,9 +302,10 @@ main .quattro-immagini .due-immagini {
 .due-immagini-dj .a2 .overlay-blach {
   position: absolute;
   top: 0;
-  width: 350px;
+  width: 370px;
   bottom: 0;
-  background-color: black;
+  background: black;
+  background: linear-gradient(94deg, rgba(0, 0, 0, 0) 0%, #ab1de5 31%);
   right: 0;
   transition: width 2s;
 }
