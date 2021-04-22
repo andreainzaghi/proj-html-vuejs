@@ -396,7 +396,7 @@ footer{
     font-size: 15px;
   }
   button:hover{
-    color:red;
+    color:#fff;
 
   }
 }
@@ -412,12 +412,28 @@ footer{
   align-items: center;
 
 }
+.popup:hover{
+
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  
+}
 .popup{
   z-index: 444;
   width:500px;
 
   height:400px;
-  background-color: #fff;
+
+    cursor: pointer;
+    background-size: 200% auto;
+    display: block;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+
+    transition: 0.5s;
+    box-shadow: 0 0 5px #eee;
+
+
   border-radius: 10px;
   div{
     img{
