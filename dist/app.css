@@ -230,6 +230,7 @@ main .quattro-immagini .due-immagini {
   font-size: 15px;
 }
 .due-immagini-dj .a1 p {
+  text-shadow: 1px 1px black;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   color: #fff;
@@ -269,7 +270,7 @@ main .quattro-immagini .due-immagini {
   top: 0;
   width: 400px;
   background: black;
-  background: linear-gradient(94deg, rgba(0, 0, 0, 0) 0%, #0193b0 31%);
+  background: linear-gradient(95deg, rgba(0, 0, 0, 0) 0%, #0193b0 23%, #0193b0 68%, #ab1de5 81%, #0193b0 95%);
   bottom: 0;
   right: 0;
   transition: width 2s;
@@ -290,6 +291,7 @@ main .quattro-immagini .due-immagini {
   font-family: "Montserrat", sans-serif;
 }
 .due-immagini-dj .a2 div p {
+  text-shadow: 1px 1px black;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   color: #fff;
@@ -330,7 +332,7 @@ main .quattro-immagini .due-immagini {
   width: 400px;
   bottom: 0;
   background: black;
-  background: linear-gradient(94deg, rgba(0, 0, 0, 0) 0%, #ab1de5 31%);
+  background: linear-gradient(95deg, rgba(0, 0, 0, 0) 0%, rgba(171, 29, 229, 0.9190176315) 23%, #ab1de5 68%, rgba(1, 147, 176, 0.9190176315) 81%, #ab1de5 95%);
   right: 0;
   transition: width 2s;
 }
