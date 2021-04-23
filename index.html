@@ -59,6 +59,37 @@
           <div> <img :src=" listNavbar[currentUser1].title" alt=""></div>
 
         </div>
+        <!-- section carosel -->
+        <div :class="popUp2"  >
+          <div class="close-btn">
+          <button @click="popDown2" type="button" name="button"><i class="fas fa-times"></i></button>
+          </div>
+          <div>
+            <!-- sezione carosel -->
+            <div class="carousel-wrapper">
+           <div class="carousel">
+
+             <div class="carousel__prev">
+               <i class="fas fa-chevron-left" @click="prevSlide"></i>
+             </div>
+
+             <div class="carousel__slide">
+               <img :src="images[slideIndex]" alt="">
+             </div>
+
+             <div class="carousel__next">
+               <i class="fas fa-chevron-right" @click="nextSlide"></i>
+             </div>
+
+             <div class="carousel__bullets">
+               <i class="fas fa-circle" v-for="(slide, index) in images" :class="slideIndex == index ? 'active' : ''" @click="slideIndex = index"></i>
+             </div>
+           </div>
+         </div>
+            <!-- sezione carosel -->
+          </div>
+
+        </div>
       </div>
       <!-- <div class="section-popup" v-for="(vide,index) in videos" >
       <div class="section-pop"  >
@@ -75,10 +106,10 @@
   <p class="p-hero-header">making memories all night long</p>
   <button @click="flip" type="button" name="button">PARTY CLICK</button>
   <div class="p-p-hero-header">
-    <p class="play-botton" >  VIEW CLUB </p>
+    <p class="play-botton"> VIEW CLUB </p>
     <!-- <span class="play-button-i"><i class="far fa-circle"></i></span>
     <span class="play-button-b"><i class="fas fa-play"></i></span> -->
-    <span class="play-button-d"><i class="far fa-play-circle"></i></span>
+    <span class="play-button-d"><i class="far fa-play-circle" @click="popUpdown2"></i></span>
     <p  class="play-botton"> SHOW REEL</p>
   </div>
 
