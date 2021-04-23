@@ -57,6 +57,12 @@ header .immagine-centrale-hero .p-hero-header {
   width: 100%;
   font-family: "Montserrat", sans-serif;
 }
+header .immagine-centrale-hero span {
+  text-shadow: 1px 1px black;
+}
+header .immagine-centrale-hero span:hover {
+  text-shadow: 2px 2px 4px #fff;
+}
 header .immagine-centrale-hero .img-fest {
   width: 95%;
   border-bottom: 3px solid #52A5EB;
@@ -76,6 +82,9 @@ header .immagine-centrale-hero .p-p-hero-header {
   line-height: -20px;
   font-family: "Montserrat", sans-serif;
 }
+header .immagine-centrale-hero .play-botton {
+  text-shadow: 1px 1px black;
+}
 header .immagine-centrale-hero .play-button-i {
   font-size: 65px;
   margin: 0px 15px;
@@ -88,6 +97,7 @@ header .immagine-centrale-hero .play-button-b {
   text-align: center;
 }
 header .immagine-centrale-hero button {
+  text-shadow: 1px 1px black;
   position: relative;
   left: 40%;
   margin-top: 15px;
@@ -95,7 +105,11 @@ header .immagine-centrale-hero button {
   border: none;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  background-color: #e51d8b;
+  background-color: #AB1DE5;
+}
+header .immagine-centrale-hero button:hover {
+  box-shadow: 2px 2px 4px #fff;
+  text-shadow: 2px 2px black;
 }
 
 nav {
@@ -118,7 +132,7 @@ nav .nav-header ul li {
   cursor: pointer;
   background-size: 200% auto;
   display: block;
-  background-image: linear-gradient(to right, transparent 0%, #8E54E9 51%, transparent 100%);
+  background-image: linear-gradient(to right, transparent 0%, #AB1DE5 51%, transparent 100%);
   padding: 4px 8px;
   margin: 0 15px;
   transition: 0.5s;
@@ -393,6 +407,11 @@ main .quattro-immagini .due-immagini {
 }
 .img-shuffle .immagine-shuffle {
   max-width: 250px;
+  border: 1px solid #fff;
+}
+.img-shuffle .immagine-shuffle:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 0px 8px #fff;
 }
 
 .title-special-event {
@@ -497,6 +516,7 @@ footer {
 .footer-text .button-footer button {
   background-color: #AB1DE5;
   padding: 8px;
+  border: none;
 }
 .footer-text .button-footer button a {
   text-decoration: none;

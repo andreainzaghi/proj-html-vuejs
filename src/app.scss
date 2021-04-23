@@ -67,6 +67,12 @@ header{
       width:100%;
       @include font;
     }
+    span{
+      text-shadow:  1px 1px   black;
+    }
+    span:hover{
+      text-shadow: 2px 2px 4px #fff;
+    }
     .img-fest{
       width:95%;
       border-bottom: 3px solid #52A5EB;
@@ -88,6 +94,9 @@ header{
       line-height: -20px;
       @include font;
     }
+    .play-botton{
+      text-shadow:  1px 1px   black;
+    }
     .play-button-i{
       font-size:65px;
       margin: 0px 15px;
@@ -100,6 +109,7 @@ header{
       text-align: center;
     }
     button{
+      text-shadow:  1px 1px   black;
       position: relative;
       left:40%;
       margin-top:15px;
@@ -107,7 +117,11 @@ header{
       border:none;
       color:#fff;
       @include font;
-      background-color: rgb(229, 29, 139);
+      background-color: $red-c;
+    }
+    button:hover{
+      box-shadow: 2px 2px 4px #fff;
+      text-shadow: 2px 2px  black;
     }
   }
 }
@@ -128,7 +142,7 @@ nav{
         cursor: pointer;
         background-size: 200% auto;
         display: block;
-        background-image: linear-gradient(to right, transparent 0%, #8E54E9  51%, transparent  100%);
+        background-image: linear-gradient(to right, transparent 0%, $red-c  51%, transparent  100%);
         padding: 4px 8px;
         margin:0 15px;
         transition: 0.5s;
@@ -401,6 +415,11 @@ main{
   }
   .immagine-shuffle{
     max-width: 250px;
+    border: 1px solid #fff;
+  }
+  .immagine-shuffle:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 0px 8px #fff;
   }
 }
 .title-special-event{
@@ -502,6 +521,7 @@ footer{
     button{
       background-color: $red-c;
       padding:8px;
+      border: none;
 
       a{
         text-decoration: none;
