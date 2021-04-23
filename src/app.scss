@@ -204,7 +204,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin-top:40px;
-    margin-left:230px;
+   margin-left: calc(50% - 340px);
     width:680px;
     .due-immagini{
       width:340px;
