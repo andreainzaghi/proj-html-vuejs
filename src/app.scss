@@ -259,6 +259,19 @@ main{
       @include font;
       font-size: 15px;
     }
+    p{
+      @include font;
+      font-size: 30px;
+      color:#fff;
+      min-width: 300px;
+      padding: 6px;
+      text-align: right;
+      margin-right: 40px;
+
+    }
+    p:first-child{
+        margin-top: 40px;
+    }
     h2{
       @include font;
       color:#fff;
@@ -285,7 +298,7 @@ main{
     .overlay-blach{
       position: absolute;
       top:0;
-      width:350px;
+      width:400px;
      background: rgb(0,0,0);
 background: linear-gradient(94deg, rgba(0,0,0,0) 0%, rgba(1,147,176,1) 31%);
       bottom:0;
@@ -306,6 +319,21 @@ background: linear-gradient(94deg, rgba(0,0,0,0) 0%, rgba(1,147,176,1) 31%);
       font-size: 15px;
       color:$blue;
       @include font;
+    }
+    div{
+      p{
+        @include font;
+        font-size: 30px;
+        color:#fff;
+        min-width: 300px;
+        padding: 6px;
+        text-align: right;
+        margin-right: 40px;
+
+      }
+      p:first-child{
+          margin-top: 40px;
+      }
     }
     h2{
       padding:20px 0px;
@@ -333,7 +361,7 @@ background: linear-gradient(94deg, rgba(0,0,0,0) 0%, rgba(1,147,176,1) 31%);
     .overlay-blach{
       position: absolute;
       top:0;
-      width:370px;
+      width:400px;
       bottom:0;
      background: rgb(0,0,0);
 background: linear-gradient(94deg, rgba(0,0,0,0) 0%, rgba(171,29,229,1) 31%);
@@ -380,6 +408,7 @@ background: linear-gradient(94deg, rgba(0,0,0,0) 0%, rgba(171,29,229,1) 31%);
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+}
   .img-shuffle{
     z-index: 33;
     padding: 15px;
@@ -400,7 +429,7 @@ background: linear-gradient(94deg, rgba(0,0,0,0) 0%, rgba(171,29,229,1) 31%);
 
     }
   }
-}
+
 .title-special-event{
   text-align: center;
   padding-top:200px;

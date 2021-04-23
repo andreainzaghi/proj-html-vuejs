@@ -228,6 +228,18 @@ main .quattro-immagini .due-immagini {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
+.due-immagini-dj .a1 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  min-width: 300px;
+  padding: 6px;
+  text-align: right;
+  margin-right: 40px;
+}
+.due-immagini-dj .a1 p:first-child {
+  margin-top: 40px;
+}
 .due-immagini-dj .a1 h2 {
   font-family: "Montserrat", sans-serif;
   color: #fff;
@@ -254,7 +266,7 @@ main .quattro-immagini .due-immagini {
 .due-immagini-dj .a1 .overlay-blach {
   position: absolute;
   top: 0;
-  width: 350px;
+  width: 400px;
   background: black;
   background: linear-gradient(94deg, rgba(0, 0, 0, 0) 0%, #0193b0 31%);
   bottom: 0;
@@ -275,6 +287,18 @@ main .quattro-immagini .due-immagini {
   font-size: 15px;
   color: #0193b0;
   font-family: "Montserrat", sans-serif;
+}
+.due-immagini-dj .a2 div p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  min-width: 300px;
+  padding: 6px;
+  text-align: right;
+  margin-right: 40px;
+}
+.due-immagini-dj .a2 div p:first-child {
+  margin-top: 40px;
 }
 .due-immagini-dj .a2 h2 {
   padding: 20px 0px;
@@ -302,7 +326,7 @@ main .quattro-immagini .due-immagini {
 .due-immagini-dj .a2 .overlay-blach {
   position: absolute;
   top: 0;
-  width: 370px;
+  width: 400px;
   bottom: 0;
   background: black;
   background: linear-gradient(94deg, rgba(0, 0, 0, 0) 0%, #ab1de5 31%);
@@ -349,21 +373,22 @@ main .quattro-immagini .due-immagini {
   display: flex;
   flex-wrap: wrap;
 }
-.display-img-shuffle .img-shuffle {
+
+.img-shuffle {
   z-index: 33;
   padding: 15px;
 }
-.display-img-shuffle .img-shuffle #paragrafo-rosso {
+.img-shuffle #paragrafo-rosso {
   color: #AB1DE5;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
 }
-.display-img-shuffle .img-shuffle #paragrafo-bianco {
+.img-shuffle #paragrafo-bianco {
   color: #fff;
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
 }
-.display-img-shuffle .img-shuffle .immagine-shuffle {
+.img-shuffle .immagine-shuffle {
   max-width: 250px;
 }
 
